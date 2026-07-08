@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Pocket Elite LLC — Support, feedback, and inquiries about SlapPocket.">
+  <meta name="theme-color" content="#07070f">
+  <title>Contact — Pocket Elite LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <div class="page-wrapper">
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">⚡</span>
+          Pocket Elite
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <header class="page-header">
+        <div class="container">
+          <h1>Contact Us</h1>
+          <p>We'd love to hear from you. Reach out for support, feedback, or general inquiries.</p>
+        </div>
+      </header>
+
+      <section class="container contact-grid">
+        <div class="contact-info-card reveal">
+          <h3>Get in Touch</h3>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <h4>General &amp; Support</h4>
+              <a href="mailto:support@pocketelite.store">support@pocketelite.store</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🔒</div>
+            <div>
+              <h4>Privacy Requests</h4>
+              <a href="mailto:privacy@pocketelite.store">privacy@pocketelite.store</a>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">
+                For data access, deletion, or privacy-related inquiries.
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🏢</div>
+            <div>
+              <h4>Company</h4>
+              <p>Pocket Elite LLC</p>
+              <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem;">
+                United States
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🌐</div>
+            <div>
+              <h4>Website</h4>
+              <a href="https://pocketelite.store">pocketelite.store</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card reveal">
+          <h3>Send a Message</h3>
+          <p>Fill out the form below and your email client will open with your message pre-filled.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="SlapPocket Support">SlapPocket Support</option>
+                <option value="Bug Report">Bug Report</option>
+                <option value="Feature Request">Feature Request</option>
+                <option value="Privacy / Data Request">Privacy / Data Request</option>
+                <option value="Business Inquiry">Business Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-note">Submitting opens your default email app addressed to support@pocketelite.store.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="index.html" class="logo">
+              <span class="logo-icon">⚡</span>
+              Pocket Elite
+            </a>
+            <p>Pocket Elite LLC creates premium mobile apps. SlapPocket is our flagship product.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="index.html#features">About SlapPocket</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Pocket Elite LLC. All rights reserved.</span>
+          <span>pocketelite.store</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
