@@ -58,8 +58,8 @@ Also link to the Privacy Policy from within the SlapPocket app (Settings or Abou
 
 The site references these addresses — set them up at your domain provider:
 
-- `contact@pockettechnologiesllc.com` — general support
-- `contact@pockettechnologiesllc.com` — privacy/data requests
+- `support@pocketelite.store` — general support
+- `privacy@pocketelite.store` — privacy/data requests
 
 ## Local Preview
 

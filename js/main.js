@@ -168,7 +168,7 @@
         `Name: ${name}\nEmail: ${email}\n\n${message}`
       );
       const mailSubject = encodeURIComponent(subject || 'SlapPocket Inquiry');
-      window.location.href = `mailto:support@pocketelite.store?subject=${mailSubject}&body=${body}`;
+      window.location.href = `mailto:hello@pocketelite.store?subject=${mailSubject}&body=${body}`;
     });
   }
 
