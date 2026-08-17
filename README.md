@@ -1,15 +1,15 @@
 # Pocket Elite LLC — Website
 
-Official website for [Pocket Elite LLC](https://pocketelite.store) and the **SlapPocket** iOS app.
+Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket** (now on the App Store), and **CoRole** (coming soon).
 
 ## Pages
 
 | Page | URL | Purpose |
 |------|-----|---------|
-| Homepage | `/` | Animated landing page |
+| Homepage | `/` | Landing page, SlapPocket download, CoRole coming soon |
 | Contact | `/contact.html` | Support & inquiries |
-| Privacy Policy | `/privacy.html` | Required for App Store |
-| Terms of Service | `/terms.html` | App Store compliance |
+| Privacy Policy | `/privacy.html` | Required for App Store; covers SlapPocket and CoRole |
+| Terms of Service | `/terms.html` | App Store compliance; covers SlapPocket and CoRole |
 
 ## GitHub Pages Deployment
 
@@ -45,21 +45,24 @@ Official website for [Pocket Elite LLC](https://pocketelite.store) and the **Sla
 
 ## App Store Connect URLs
 
-When submitting SlapPocket, use these URLs:
+**SlapPocket** (live): [apps.apple.com/us/app/slappocket/id6765742269](https://apps.apple.com/us/app/slappocket/id6765742269)
+
+When submitting SlapPocket or CoRole, use these URLs:
 
 - **Privacy Policy URL:** `https://pocketelite.store/privacy.html`
 - **Terms of Service URL:** `https://pocketelite.store/terms.html` (link in App or Support URL)
 - **Support URL:** `https://pocketelite.store/contact.html`
 - **Marketing URL:** `https://pocketelite.store`
 
-Also link to the Privacy Policy from within the SlapPocket app (Settings or About screen).
+Also link to the Privacy Policy from within each app (Settings or About screen). If an app offers accounts, include an in-app account deletion path as required by Apple.
 
 ## Email Setup
 
 The site references these addresses — set them up at your domain provider:
 
-- `support@pocketelite.store` — general support
-- `privacy@pocketelite.store` — privacy/data requests
+- `hello@pocketelite.store` — general support and privacy requests
+- `support@pocketelite.store` — optional additional support alias
+- `privacy@pocketelite.store` — optional privacy/data-request alias
 
 ## Local Preview
 
