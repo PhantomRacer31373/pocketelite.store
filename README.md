@@ -1,15 +1,15 @@
 # Pocket Elite LLC — Website
 
-Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket** (now on the App Store), and **CoRole** (coming soon).
+Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket** (now on the App Store), **Entrepreneur Operator** (coming soon), and **Log Walker** (coming soon).
 
 ## Pages
 
 | Page | URL | Purpose |
 |------|-----|---------|
-| Homepage | `/` | Landing page, SlapPocket download, CoRole coming soon |
+| Homepage | `/` | Landing page, SlapPocket download, upcoming apps |
 | Contact | `/contact.html` | Support & inquiries |
-| Privacy Policy | `/privacy.html` | Required for App Store; covers SlapPocket and CoRole |
-| Terms of Service | `/terms.html` | App Store compliance; covers SlapPocket and CoRole |
+| Privacy Policy | `/privacy.html` | Required for App Store; covers SlapPocket, Entrepreneur Operator, and Log Walker |
+| Terms of Service | `/terms.html` | App Store compliance; covers SlapPocket, Entrepreneur Operator, and Log Walker |
 
 ## GitHub Pages Deployment
 
@@ -47,14 +47,14 @@ Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket
 
 **SlapPocket** (live): [apps.apple.com/us/app/slappocket/id6765742269](https://apps.apple.com/us/app/slappocket/id6765742269)
 
-When submitting SlapPocket or CoRole, use these URLs:
+When submitting SlapPocket, Entrepreneur Operator, or Log Walker, use these URLs:
 
 - **Privacy Policy URL:** `https://pocketelite.store/privacy.html`
-- **Terms of Service URL:** `https://pocketelite.store/terms.html` (link in App or Support URL)
+- **Terms of Service / Terms of Use URL:** `https://pocketelite.store/terms.html` (required for auto-renewable subscriptions)
 - **Support URL:** `https://pocketelite.store/contact.html`
 - **Marketing URL:** `https://pocketelite.store`
 
-Also link to the Privacy Policy from within each app (Settings or About screen). If an app offers accounts, include an in-app account deletion path as required by Apple.
+Also link to the Privacy Policy (and Terms of Use where subscriptions are offered) from within each app (Settings or About screen). If an app offers accounts, include an in-app account deletion path as required by Apple. Keep App Privacy nutrition labels accurate and update them when practices change.
 
 ## Email Setup
 
