@@ -1,15 +1,15 @@
 # Pocket Elite LLC — Website
 
-Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket** (now on the App Store), **Entrepreneur Operator** (coming soon), and **Log Walker** (coming soon).
+Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket** and **Entrepreneur Operator** (now on the App Store), plus **SoundMashify** and **Log Walker** (coming soon).
 
 ## Pages
 
 | Page | URL | Purpose |
 |------|-----|---------|
-| Homepage | `/` | Landing page, SlapPocket download, upcoming apps |
+| Homepage | `/` | Landing page, live downloads, upcoming apps |
 | Contact | `/contact.html` | Support & inquiries |
-| Privacy Policy | `/privacy.html` | Required for App Store; covers SlapPocket, Entrepreneur Operator, and Log Walker |
-| Terms of Service | `/terms.html` | App Store compliance; covers SlapPocket, Entrepreneur Operator, and Log Walker |
+| Privacy Policy | `/privacy.html` | Required for App Store; covers SlapPocket, Entrepreneur Operator, SoundMashify, and Log Walker |
+| Terms of Service | `/terms.html` | App Store compliance; covers SlapPocket, Entrepreneur Operator, SoundMashify, and Log Walker |
 
 ## GitHub Pages Deployment
 
@@ -47,7 +47,9 @@ Official website for [Pocket Elite LLC](https://pocketelite.store), **SlapPocket
 
 **SlapPocket** (live): [apps.apple.com/us/app/slappocket/id6765742269](https://apps.apple.com/us/app/slappocket/id6765742269)
 
-When submitting SlapPocket, Entrepreneur Operator, or Log Walker, use these URLs:
+**Entrepreneur Operator** (live): [apps.apple.com/us/app/entrepreneur-operator/id6804751489](https://apps.apple.com/us/app/entrepreneur-operator/id6804751489)
+
+When submitting SlapPocket, Entrepreneur Operator, SoundMashify, or Log Walker, use these URLs:
 
 - **Privacy Policy URL:** `https://pocketelite.store/privacy.html`
 - **Terms of Service / Terms of Use URL:** `https://pocketelite.store/terms.html` (required for auto-renewable subscriptions)
